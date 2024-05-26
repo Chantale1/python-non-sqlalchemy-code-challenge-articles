@@ -2,9 +2,10 @@ class Article:
     def __init__(self, author, magazine, title):
         self.author = author
         self.magazine = magazine
-        self.title = title
-        
+        self.title = str(title) 
+             Article.all.append(self)
 class Author:
+   
     def __init__(self, name):
         self.name = name
 
