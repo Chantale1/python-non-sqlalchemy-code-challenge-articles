@@ -49,7 +49,8 @@ class Magazine:
         return list(set(article.author for article in self._articles))
 
     def article_titles(self):
-        return [article.title for article in self._articles]
+             return [article.title for article in self.articles()] or None
 
     def contributing_authors(self):
-        return [author for author in Author.all if self in author.magazines()]
+
+     return [author for author in self.contributors() if sum(1 for article in self.articles() if article.author == author) > 2] or None
