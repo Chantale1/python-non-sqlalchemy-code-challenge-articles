@@ -1,13 +1,13 @@
-Article and Author Management System
+# Article and Author Management System
 This Python program provides classes for managing articles and authors for a magazine publication system. It allows users to create articles, authors, and magazines, and perform various operations such as retrieving articles by author, listing magazines, adding articles to magazines, and more.
 
-Features
+## Features
 Article Class: Represents an article with attributes such as author, magazine, and title.
 Author Class: Represents an author with attributes like name and methods to manage articles.
 Magazine Class: Represents a magazine with attributes including name, category, and methods to manage articles and contributors.
 Functionality: The system provides functionalities like adding articles, retrieving articles by author, listing magazines, listing article titles, listing contributing authors for a magazine, etc.
-Usage
-Setting Up:
+# Usage
+## Setting Up:
 Ensure you have Python installed on your system.
 Download the article_management.py file.
 Running the Program:
@@ -39,3 +39,6 @@ Contributions are welcome! If you find any issues with the code or have suggesti
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
